@@ -1,0 +1,178 @@
+@font-face{
+    font-family: 'Athar';
+    src: url('OpenSans-Regular.ttf');
+  }
+
+*{
+    font-family: Athar ;
+  }
+  .nav-item,.nav-link,.navbar-navs{
+    margin-right: 8px  !important;
+    font-weight: 600 !important;
+    /* font-weight: bold !important ;  */
+    color: black !important;
+    font-size: 15px !important;
+    /* font-family: sans-serif !importasnt; */
+} 
+.nav-item:hover,.nav-link:hover,.navbar-navs:hover{
+    color: #FB5b21 !important;
+}
+hr.new5 {
+  border: 2px solid #FB5b21;
+  border-radius: 5px;
+  width: 90px;
+  
+  
+}
+
+.fa-user-o{
+font-size: 90px !important;
+margin-top: 50px !important;
+}
+.card1 {
+  height: 230px;
+  width: 360px;
+  color: #fff;
+  background-color: #FB5b21;
+  box-shadow: 2px 4px 5px grey;
+  text-align: center !important;
+  font-size: 80px;
+  margin-top: 20px;
+}
+.card1:hover{
+  background-color: black;
+  cursor: pointer;
+}
+.card2 {
+  height: 230px;
+  width: 360px;
+  color: #000;
+  background-color: #fff;
+  box-shadow: 2px 4px 5px grey;
+  text-align: center !important;
+  font-size: 80px;
+  margin-top: 20px;
+}
+.card2:hover{
+  background-color: #FB5b21;
+  cursor: pointer;
+}
+.card3 {
+  height: 230px;
+  width: 360px;
+  color: #fff;
+  background-color: #FB5b21;
+  box-shadow: 2px 4px 5px grey;
+  text-align: center !important;
+  font-size: 80px;
+  margin-top: 20px;
+  }
+
+.card3:hover{
+  background-color: black;
+  cursor: pointer;
+}
+
+.maincard{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.maincard2{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.maincard3{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+
+.card4 {
+  height: 230px;
+  width: 360px;
+  color: #000;
+  background-color: #fff;
+  box-shadow: 2px 4px 5px grey;
+  text-align: center !important;
+  font-size: 80px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.blck{
+  width: 100%; 
+  height: 500px; 
+  background-color: #212121;
+
+}
+.trainers{
+  width: 100%; 
+  height: 500px; 
+ 
+}
+
+.card5 {
+  height: 230px;
+  width: 800px;
+  color: #000;
+  background-color: transparent;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+hr.new6 {
+  border: 2px solid #FB5b21;
+  border-radius: 5px;
+  width: 50px;
+  margin-top: 73px;
+  margin-left: 25px;
+  position: relative;
+  right: 85px;
+  
+  
+}
+
+
+@media only screen and (max-width: 500px) {
+  .card1,.card2,.card3{
+    width: 100%;
+  }
+ 
+  .blck {
+    height:940px;
+  }
+  .maincard3{
+    font-size: 3px;
+    margin-top: 200px;
+    width: 100% !important;
+  }
+  .map{
+    margin-top: 300px;
+  }
+}
+
+footer{
+  background-color: #212121;
+  height: 70px;
+  width: 100%;
+  margin-top: 48px;
+  text-align: center;
+  /* align-items: center !important;
+  justify-content: center !important; */
+  color: white;
+}
+.foot{
+ font-size: 16px;
+}
